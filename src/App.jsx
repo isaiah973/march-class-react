@@ -20,7 +20,7 @@ function App() {
         <Route path="/product/:id" element={<ProductDetail />} />
         <Route path="/login" element={<Login />} />
         <Route path="/post" element={<SocialPost />} />
-        <Route path="/card" element={<SingleCard />} />
+        {/* <Route path="/card" element={<SingleCard />} /> */}
       </Routes>
     </div>
   );
