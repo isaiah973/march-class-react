@@ -5,7 +5,7 @@ import { BsEye } from "react-icons/bs";
 import { FaThumbsDown, FaThumbsUp } from "react-icons/fa";
 import { data, Link } from "react-router-dom";
 
-const SocialPost = () => {
+const SocialPost = (props) => {
   const [posts, setPost] = useState([]);
 
   const getPost = async () => {
@@ -21,6 +21,16 @@ const SocialPost = () => {
     getPost();
   }, []);
   
+
+  // function card(event){
+  //   const clickedPost = event.target;
+  //   // console.log(posts.filter((p) => p === clickedPost));
+  //   const clickedItem = posts.filter((p) => clickedPost === p)
+  //   if(clickedPost.key === posts.index) {
+
+  //     console.log(clickedItem.title)
+  //   }
+  // }
   return (
     <Link to="/card">
     <section>

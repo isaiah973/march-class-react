@@ -1,11 +1,11 @@
-// import React from 'react'
-// import SocialPost from './Post'
-// const SingleCard = () => {
-//   return (
-//     <div>
-//       {/* {<SocialPost />} */}
-//     </div>
-//   )
-// }
+import React from 'react'
+import SocialPost from './Post'
+const SingleCard = (props) => {
+  return (
+    <div>
+      {/* {props.posts} */}
+    </div>
+  )
+}
 
-// export default SingleCard
+export default SingleCard
