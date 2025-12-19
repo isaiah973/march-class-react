@@ -15,16 +15,16 @@ function App() {
   return (
     <div>
       <UserContext.Provider value={username}>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/todo" element={<TodoApp />} />
-        <Route path="/product" element={<ProductPage />} />
-        <Route path="/product/:id" element={<ProductDetail />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/post" element={<SocialPost />} />
-        <Route path="/card" element={<SingleCard />} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/todo" element={<TodoApp />} />
+          <Route path="/product" element={<ProductPage />} />
+          <Route path="/product/:id" element={<ProductDetail />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/post" element={<SocialPost />} />
+          <Route path="/card" element={<SingleCard />} />
+        </Routes>
       </UserContext.Provider>
     </div>
   );

@@ -6,16 +6,6 @@ const Login = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
-
-  // const credentials = { username: 'john_doe', password: 'pass123' };
-  // fetch('https://fakestoreapi.com/auth/login', {
-  // method: 'POST',
-  // headers: { 'Content-Type': 'application/json' },
-  // body: JSON.stringify(credentials)
-  // })
-  // .then(response => response.json())
-  // .then(data => console.log(data));
-
   const navigate = useNavigate();
   const handleSubmit = async (e) => {
     e.preventDefault();
